@@ -37,18 +37,17 @@ class BottomNavigationBarWidget extends StatelessWidget {
                     )
                   : InkWell(
                       onTap: () {
-                       value
-                            .changeCurrentPageSelected(0);
+                        value.changeCurrentPageSelected(0);
                       },
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: const Icon(
+                      child: const Padding(
+                        padding: EdgeInsets.all(8.0),
+                        child: Icon(
                           Icons.home_outlined,
                           color: Colors.white,
                         ),
                       ),
                     ),
-             value.selectedPage == 1
+              value.selectedPage == 1
                   ? Container(
                       height: 65,
                       width: 65,
@@ -62,15 +61,14 @@ class BottomNavigationBarWidget extends StatelessWidget {
                     )
                   : InkWell(
                       onTap: () {
-                       value
-                            .changeCurrentPageSelected(1);
+                        value.changeCurrentPageSelected(1);
                       },
                       child: const Icon(
                         Icons.home_outlined,
                         color: Colors.white,
                       ),
                     ),
-             value.selectedPage == 2
+              value.selectedPage == 2
                   ? Container(
                       height: 65,
                       width: 65,
@@ -84,8 +82,7 @@ class BottomNavigationBarWidget extends StatelessWidget {
                     )
                   : InkWell(
                       onTap: () {
-                       value
-                            .changeCurrentPageSelected(2);
+                        value.changeCurrentPageSelected(2);
                       },
                       child: const Icon(
                         Icons.home_outlined,
@@ -108,8 +105,7 @@ class BottomNavigationBarWidget extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: InkWell(
                         onTap: () {
-                         value
-                              .changeCurrentPageSelected(3);
+                          value.changeCurrentPageSelected(3);
                         },
                         child: const Icon(
                           Icons.person_outlined,

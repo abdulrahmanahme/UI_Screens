@@ -21,7 +21,7 @@ class _CalanderWidgetState extends State<CalanderWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+      height: 85,
       width: double.infinity,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
@@ -32,12 +32,12 @@ class _CalanderWidgetState extends State<CalanderWidget> {
         itemBuilder: (context, int index) => Padding(
           padding: EdgeInsets.symmetric(horizontal: 3),
           child: Container(
-            height: 80,
+            height: 70,
             width: 55,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(25),
               border: Border.all(
-                width: 2,
+                width: 1,
                 color: Colors.grey.shade300,
               ),
               color: selectedDay == index ? AppColor.blackColor : Colors.white,

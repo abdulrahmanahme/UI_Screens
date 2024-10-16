@@ -1,20 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:ui/view/home/home_screen.dart';
+import 'package:ui/view/home/profile_screen.dart';
 
 class MainProvider extends ChangeNotifier {
   int selectedPage = 0;
 
   List<Widget> screens = const [
     HomeScreen(),
-    Center(
-      child: Text(
-        ' Home 1',
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.black,
-        ),
-      ),
-    ),
+    ProfileScreen(),
     Center(
       child: Text(
         ' Home 2',

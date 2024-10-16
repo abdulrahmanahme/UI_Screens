@@ -230,7 +230,7 @@ class YourGroupeWidget extends StatelessWidget {
       width: 160,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: AppColor.defaultColor,
+        color: Colors.orange.shade200,
       ),
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),

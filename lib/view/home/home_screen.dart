@@ -42,7 +42,6 @@ class HomeScreen extends StatelessWidget {
                     color: AppColor.blackColor,
                     fontWeight: FontWeight.w700,
                     ),
-
               ),
                SizedBox(
                 height: 5,
