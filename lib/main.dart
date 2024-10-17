@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ui/logic/main_provider.dart';
 import 'package:ui/view/home/bottom_nav_bar_screen.dart';
+import 'package:ui/view/ui2/yoga_home_screen.dart';
 
 void main() {
   runApp(
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BottomNavBarScreen(),
+      home: const YogaHomeScreen(),
     );
   }
 }

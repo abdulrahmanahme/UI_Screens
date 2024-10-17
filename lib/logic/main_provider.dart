@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ui/view/home/home_screen.dart';
 import 'package:ui/view/home/profile_screen.dart';
+import 'package:ui/view/home/youga_screen_details.dart';
 
 class MainProvider extends ChangeNotifier {
   int selectedPage = 0;
@@ -8,15 +9,7 @@ class MainProvider extends ChangeNotifier {
   List<Widget> screens = const [
     HomeScreen(),
     ProfileScreen(),
-    Center(
-      child: Text(
-        ' Home 2',
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.black,
-        ),
-      ),
-    ),
+    YogaScreenDetails(),
     Center(
       child:  Text(
         ' Home 3 ',
