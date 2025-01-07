@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ui/view/home/home_screen.dart';
-import 'package:ui/view/home/profile_screen.dart';
-import 'package:ui/view/home/youga_screen_details.dart';
+import 'package:ui/view/ui3/widgets/home_screen.dart';
+import 'package:ui/view/ui3/widgets/profile_screen.dart';
+import 'package:ui/view/ui3/widgets/youga_screen_details.dart';
 
 class MainProvider extends ChangeNotifier {
   int selectedPage = 0;

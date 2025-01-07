@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ui/logic/main_provider.dart';
-import 'package:ui/view/home/bottom_nav_bar_screen.dart';
+import 'package:ui/ui5/widget/bottom_nav_bar.dart';
+import 'package:ui/ui5/widget/travel_screen.dart';
+import 'package:ui/view/food/food_screen.dart';
+import 'package:ui/view/home/ui4/screen/hotel_info_screen.dart';
+import 'package:ui/view/movie/movie_screen.dart';
+import 'package:ui/view/ui3/widgets/bottom_nav_bar_screen.dart';
 import 'package:ui/view/ui2/yoga_home_screen.dart';
+import 'package:ui/view/ui3/movies_screen.dart';
+import 'package:ui/view/home/ui4/screen/traveling_screen.dart';
 
 void main() {
   runApp(
@@ -29,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const YogaHomeScreen(),
+      home: const BottomNavBarExample(),
     );
   }
 }
