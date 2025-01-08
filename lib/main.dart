@@ -10,6 +10,7 @@ import 'package:ui/view/ui3/widgets/bottom_nav_bar_screen.dart';
 import 'package:ui/view/ui2/yoga_home_screen.dart';
 import 'package:ui/view/ui3/movies_screen.dart';
 import 'package:ui/view/home/ui4/screen/traveling_screen.dart';
+import 'package:ui/view/ui6/advangture/tripe_gide_screen.dart';
 
 void main() {
   runApp(
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BottomNavBarExample(),
+      home: const TripeGideScreen(),
     );
   }
 }
