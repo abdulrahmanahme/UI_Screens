@@ -19,6 +19,7 @@ class TripeGideScreen extends StatelessWidget {
                   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqcVXIgWCvTbb55lDj91N_g2rd0F3rma21CA&s',
             ),
             const SizedBox(
+              
               height: 15,
             ),
             const SearchBarWidget(),
