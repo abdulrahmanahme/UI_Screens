@@ -81,6 +81,7 @@ class TravelScreen extends StatelessWidget {
                 return const Padding(
                   padding: EdgeInsets.all(2.0),
                   child: ProductCard(
+                    
                     image:
                         'https://mediaaws.almasryalyoum.com/news/verylarge/2022/05/21/1809206_0.jpg',
                     title: 'Custom Text',

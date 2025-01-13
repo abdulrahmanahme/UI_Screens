@@ -14,10 +14,15 @@ import 'package:ui/view/home/ui4/screen/traveling_screen.dart';
 import 'package:ui/view/ui6/advangture/tripe_gide_screen.dart';
 
 void main() {
+<<<<<<< HEAD
   ShardPrefHelper shardPrefHelper =ShardPrefHelper();
+=======
+////////////////sssffddddddd
+>>>>>>> d5804c81c74af0733e8d22e1f3a0e7177a1e987a
   runApp(
     MultiProvider(
       providers: [
+        ///////
         ChangeNotifierProvider(
           create: (context) => MainProvider(),
         ),
