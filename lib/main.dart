@@ -13,7 +13,7 @@ import 'package:ui/view/home/ui4/screen/traveling_screen.dart';
 import 'package:ui/view/ui6/advangture/tripe_gide_screen.dart';
 
 void main() {
-////////////////sss
+////////////////sssffdddd
   runApp(
     MultiProvider(
       providers: [
